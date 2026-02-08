@@ -1,6 +1,5 @@
 
 import java.util.Scanner;
-
 public class HappyNumber {
       public static boolean isHappy(int n) {
             if (n == 1 || n == 7) {
