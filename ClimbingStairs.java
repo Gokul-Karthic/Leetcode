@@ -24,5 +24,4 @@ public class ClimbingStairs {
             System.out.println(solution(n));
 
       }
-
 }
