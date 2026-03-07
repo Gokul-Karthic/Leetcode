@@ -9,7 +9,6 @@ public class DivideanArrayintoSubarrayswithMinCost {
             return first + nums[1] + nums[2];
 
       }
-
       public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             int n = sc.nextInt();
@@ -20,5 +19,4 @@ public class DivideanArrayintoSubarrayswithMinCost {
             int ans = mincost(arr);
             System.out.println(ans);
       }
-
 }
