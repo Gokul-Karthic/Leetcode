@@ -19,7 +19,6 @@ public class FirstLettertoAppearTwice {
             String s = sc.next();
             char ans = repeat(s);
             System.out.println(ans);
-
       }
 
 }
