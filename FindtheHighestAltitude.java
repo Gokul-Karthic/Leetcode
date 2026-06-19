@@ -1,13 +1,12 @@
 public class FindtheHighestAltitude {
       public int largestAltitude(int[] gain) {
-            int cur = 0;
             int max = 0;
-            for (int i : gain) {
-                  cur += i;
-                  if (cur > max) {
-                        max = cur;
-                  }
+            int sum = 0;
+            for (int i = 0; i < gain.length; i++) {
+                  sum += gain[i];
+                  max = Math.max(sum, max);
             }
             return max;
+
       }
 }
